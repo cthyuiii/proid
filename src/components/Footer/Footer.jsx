@@ -64,7 +64,7 @@ const Footer = () => {
     return <footer className="footer">
         <Container>
             <Row>
-                <Col lg='3' md='6' sm='6'>
+                <Col lg='3' md='6' sm='6' className="mb-4">
                     <div className="logo">
                         <h2 className=" d-flex gap-2 align-items-center ">
                             <span>
@@ -80,7 +80,7 @@ const Footer = () => {
                     </div>
                 </Col>
 
-                <Col lg='2' md='3' sm='6'>
+                <Col lg='2' md='3' sm='6' className="mb-4">
                     <h5>My Account</h5>
                     <ListGroup className="list__group">
                         {
@@ -93,7 +93,7 @@ const Footer = () => {
                     </ListGroup>
                 </Col>
                 
-                <Col lg='2' md='3' sm='6'>
+                <Col lg='2' md='3' sm='6' className="mb-4">
                 <h5>Resources</h5>
                     <ListGroup className="list__group">
                         {
@@ -106,7 +106,7 @@ const Footer = () => {
                     </ListGroup>
                 </Col>
                 
-                <Col lg='2' md='3' sm='6'>
+                <Col lg='2' md='3' sm='6' className="mb-4">
                 <h5>Company</h5>
                     <ListGroup className="list__group">
                         {
@@ -119,7 +119,7 @@ const Footer = () => {
                     </ListGroup>
                 </Col>
 
-                <Col lg='3' md='6' sm='6'>
+                <Col lg='3' md='6' sm='6' className="mb-4">
                     <h5>Newsletter</h5>
                     <input type="text" className="newsletter" placeholder="Email"/>
                     <div className="social__links d-flex gap-3 align-items-center">
