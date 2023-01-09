@@ -17,7 +17,7 @@ const STEP__DATA = [
     },
 
     {
-        title:'Add your NFTs',
+        title:'Add your Listings',
         desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea vel id consequuntur?',
         icon: 'ri-image-line'
     },
@@ -34,7 +34,7 @@ const StepSection = () => {
         <Container>
             <Row>
                 <Col lg='12' className="mb-4">
-                    <h3 className="step__title">Create and Sell Your NFTs</h3>
+                    <h3 className="step__title">Create and Donate Your Unwanted Clothes!</h3>
                 </Col>
 
                 {

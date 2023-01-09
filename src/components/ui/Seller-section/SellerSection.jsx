@@ -9,7 +9,7 @@ const SellerSection = () => {
             <Row>
                 <Col lg='12' className="mb-5">
                     <div className="seller__section-title">
-                        <h3>Top Sellers</h3>
+                        <h3>Top Donors</h3>
                     </div>
                 </Col>
 
