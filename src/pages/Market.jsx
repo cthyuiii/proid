@@ -34,7 +34,7 @@ const Market = () => {
     }
     return (
         <>
-            <CommonSection title={'Maketplace'}/>
+            <CommonSection title={'Marketplace'}/>
             <section>
                 <Container>
                     <Row>
