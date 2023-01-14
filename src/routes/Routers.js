@@ -14,7 +14,7 @@ import ItemDetails from '../pages/ItemDetails'
 const Routers = () => {
     return <Routes>
         <Route path="/" element={<Navigate to={'/home'}/>} />
-        <Route path="/home" element={<Home/>} />
+        <Route path="/proid" element={<Home/>} />
         <Route path="/market" element={<Market/>} />
         <Route path="/create" element={<Create/>} />
         <Route path="/contact" element={<Contact/>} />
