@@ -13,7 +13,7 @@ import ItemDetails from '../pages/ItemDetails'
 
 const Routers = () => {
     return <Routes>
-        <Route path="/proid/" element={<Navigate to={'/home'}/>} />
+        <Route path="proid/" element={<Navigate to={'/home'}/>} />
         <Route path="/" element={<Navigate to={'/home'}/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/market" element={<Market/>} />
