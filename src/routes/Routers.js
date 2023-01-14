@@ -13,15 +13,16 @@ import ItemDetails from '../pages/ItemDetails'
 
 const Routers = () => {
     return <Routes>
+        <Route path="/proid/" element={<Navigate to={'/home'}/>} />
         <Route path="/" element={<Navigate to={'/home'}/>} />
-        <Route path="/proid/" element={<Home/>} />
+        <Route path="/home" element={<Home/>} />
         <Route path="/market" element={<Market/>} />
         <Route path="/create" element={<Create/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/seller-profile" element={<SellerProfile/>} />
         <Route path="/edit-profile" element={<EditProfile/>} />
         <Route path="/wallet" element={<Wallet/>} />
-        <Route path="/market/:id" element={<ItemDetails/>} />
+        <Route path="/market" element={<ItemDetails/>} />
     </Routes>
 }
 
