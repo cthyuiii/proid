@@ -73,9 +73,9 @@ const Footer = () => {
                             </span>
                         </h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Molestiae ut numquam aspernatur, 
-                            voluptatum temporibus cupiditate corporis distinctio natus.
+                            REC is a project to fight against the rising trend of Textile
+                            Wastage in Singapore. Join now to fight against the continuous
+                            wastage of clothes.
                         </p>
                     </div>
                 </Col>

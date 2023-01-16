@@ -1,12 +1,13 @@
-import img01 from "../images/img-01.jpg";
-import img02 from "../images/img-02.jpg";
-import img03 from "../images/img-03.jpg";
-import img04 from "../images/img-04.jpg";
-import img05 from "../images/img-05.jpg";
-import img06 from "../images/img-06.jpg";
-import img07 from "../images/img-07.jpg";
-import img08 from "../images/img-08.jpg";
-import img09 from "../images/img-09.jpg";
+import img01 from "../images/img-01.jpeg";
+import img02 from "../images/img-02.jpeg";
+import img03 from "../images/img-03.jpeg";
+import img04 from "../images/img-04.jpeg";
+import img05 from "../images/img-05.jpeg";
+import img06 from "../images/img-06.jpeg";
+import img07 from "../images/img-07.jpeg";
+import img08 from "../images/img-08.jpeg";
+import img09 from "../images/img-09.jpeg";
+import img10 from "../images/img-10.jpeg";
 
 import ava01 from "../images/ava-01.png";
 import ava02 from "../images/ava-02.png";
@@ -18,92 +19,102 @@ import ava06 from "../images/ava-06.png";
 export const NFT__DATA = [
   {
     id: "01",
-    title: "Travel Monkey Club",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Nike Tee",
+    desc: "Thifted Nike Tee, Size L, Good Condition",
     imgUrl: img01,
     creator: "Trista Francis",
-    creatorImg: ava01,
-    currentBid: 5.89,
+    creatorImg: ava02,
+    currentBid: 75,
   },
 
   {
     id: "02",
-    title: "Sir Lion Swag",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Rainbow Nike Tee",
+    desc: "Thifted Nike Tee, Size M, Good Condition",
     imgUrl: img02,
     creator: "Trista Francis",
     creatorImg: ava02,
-    currentBid: 5.09,
+    currentBid: 60,
   },
 
   {
     id: "03",
-    title: "Civilian",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Nike Sweater",
+    desc: "Thifted Nike Sweater, Size L, Good Condition",
     imgUrl: img03,
-    creator: "Trista Francis",
-    creatorImg: ava03,
-    currentBid: 6.89,
+    creator: "Ryan Carder",
+    creatorImg: ava01,
+    currentBid: 150,
   },
 
   {
     id: "04",
-    title: "Guard",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Nike Rugby NFL Tee",
+    desc: "Thifted Nike Tee, Size L, Good Condition",
     imgUrl: img04,
     creator: "Trista Francis",
-    creatorImg: ava04,
-    currentBid: 7.89,
+    creatorImg: ava02,
+    currentBid: 70,
   },
 
   {
     id: "05",
-    title: "Travel Monkey Club",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Nike Shoe Tee",
+    desc: "Thifted Nike Tee, Size L, Good Condition",
     imgUrl: img05,
-    creator: "Trista Francis",
-    creatorImg: ava05,
-    currentBid: 4.89,
+    creator: "De Chuan",
+    creatorImg: ava03,
+    currentBid: 70,
   },
 
   {
     id: "06",
-    title: "Sir Lion Swag",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Ralph Lauren Sweater",
+    desc: "Vintage Ralph Loren Sweater, Size L, Good Condition",
     imgUrl: img06,
-    creator: "Trista Francis",
-    creatorImg: ava06,
-    currentBid: 4.99,
+    creator: "De Chuan",
+    creatorImg: ava03,
+    currentBid: 200,
   },
 
   {
     id: "07",
-    title: "Civilian",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Ralph Lauren USA Sweater",
+    desc: "Vintage Ralph Loren Sweater, Size L, Good Condition",
     imgUrl: img07,
-    creator: "Trista Francis",
-    creatorImg: ava03,
-    currentBid: 5.89,
+    creator: "Poh Jia",
+    creatorImg: ava04,
+    currentBid: 180,
   },
 
   {
     id: "08",
-    title: "Guard",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage WORLD Nike USA Tee",
+    desc: "Thifted Nike Tee, Size L, Good Condition",
     imgUrl: img08,
-    creator: "Trista Francis",
-    creatorImg: ava04,
-    currentBid: 5.89,
+    creator: "Nicole Wong",
+    creatorImg: ava05,
+    currentBid: 70,
   },
 
   {
     id: "09",
-    title: "Travel Monkey Club",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+    title: "Vintage Nike Las Vegas Tee",
+    desc: "Thifted Nike Tee, Size L, Good Condition",
     imgUrl: img09,
-    creator: "Trista Francis",
-    creatorImg: ava05,
-    currentBid: 5.89,
+    creator: "Reanee Tan",
+    creatorImg: ava06,
+    currentBid: 70,
+  },
+
+  {
+    id: "10",
+    title: "Blue Vintage Nike Tee",
+    desc: "Thifted Nike Tee, Size L, Good Condition",
+    imgUrl: img10,
+    creator: "Reanee Tan",
+    creatorImg: ava06,
+    currentBid: 70,
   },
 ];
 
@@ -113,7 +124,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Ryan Carder",
     sellerImg: ava01,
-    currentBid: 5.89,
+    currentBid: 500,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -124,7 +135,7 @@ export const SELLER__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
     sellerName: "Trista Francis",
     sellerImg: ava02,
-    currentBid: 5.89,
+    currentBid: 450,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -133,9 +144,9 @@ export const SELLER__DATA = [
   {
     id: "03",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
+    sellerName: "De Chuan",
     sellerImg: ava03,
-    currentBid: 5.89,
+    currentBid: 300,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -146,9 +157,9 @@ export const SELLER__DATA = [
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
-    sellerName: "Ryan Carder",
+    sellerName: "Poh Jia",
     sellerImg: ava04,
-    currentBid: 5.89,
+    currentBid: 280,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -159,9 +170,9 @@ export const SELLER__DATA = [
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
-    sellerName: "Trista Francis",
+    sellerName: "Nicole Wong",
     sellerImg: ava05,
-    currentBid: 5.89,
+    currentBid: 250,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
@@ -172,83 +183,11 @@ export const SELLER__DATA = [
 
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
 
-    sellerName: "Trista Francis",
+    sellerName: "Reanee Tan",
     sellerImg: ava06,
-    currentBid: 5.89,
+    currentBid: 200,
     fbUrl: "#",
     instaUrl: "#",
     twitUrl: "#",
   },
-
- /* {
-    id: "01",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
-    sellerImg: ava01,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "02",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Trista Francis",
-    sellerImg: ava02,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "03",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-    sellerName: "Ryan Carder",
-    sellerImg: ava03,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "04",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Ryan Carder",
-    sellerImg: ava04,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "05",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Trista Francis",
-    sellerImg: ava05,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },
-
-  {
-    id: "06",
-
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia",
-
-    sellerName: "Trista Francis",
-    sellerImg: ava06,
-    currentBid: 5.89,
-    fbUrl: "#",
-    instaUrl: "#",
-    twitUrl: "#",
-  },*/
 ];

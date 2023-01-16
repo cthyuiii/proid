@@ -7,44 +7,42 @@ import "../styles/wallet.css";
 
 const wallet__data = [
   {
-    title: "Bitcoin",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium accusamus repellat rerum consequatur explicabo? Reiciendis!",
-    icon: "ri-bit-coin-line",
+    title: "Apple",
+    desc: "Connect your Apple ID through your Apple Account to create your account. Authentication is required and done through Apple's site.",
+    icon: "ri-apple-line",
   },
 
   {
-    title: "Coinbase",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium accusamus repellat rerum consequatur explicabo? Reiciendis!",
-    icon: "ri-coin-line",
+    title: "Facebook",
+    desc: "Connect your FaceBook Profile through your Facebook Account to create your account. Authentication is required and done through Facebook's site.",
+    icon: "ri-facebook-circle-line",
   },
 
   {
-    title: "Metamask",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium accusamus repellat rerum consequatur explicabo? Reiciendis!",
-    icon: "ri-money-cny-circle-line",
+    title: "Google",
+    desc: "Connect your Google Profile through your Google Account to create your account. Authentication is required and done through Google's site.",
+    icon: "ri-google-line",
   },
 
   {
-    title: "Authereum",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium accusamus repellat rerum consequatur explicabo? Reiciendis!",
-    icon: "ri-bit-coin-line",
+    title: "Twitter",
+    desc: "Connect your Twitter Profile through your Twitter Account to create your account. Authentication is required and done through Twitter's site.",
+    icon: "ri-twitter-line",
   },
 ];
 
 const Wallet = () => {
   return (
     <>
-      <CommonSection title="Connect Wallet" />
+      <CommonSection title="Connect Account" />
       <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <div className="w-50 m-auto">
-                <h3 className="text-light">Connect your wallet</h3>
+                <h3 className="text-light">Connect your Account</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Minima numquam nisi, quam obcaecati a provident voluptas sequi
-                  unde officiis placeat!
+                  Create your account through connecting them with the available login methods below.
                 </p>
               </div>
             </Col>

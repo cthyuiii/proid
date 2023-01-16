@@ -5,26 +5,26 @@ import './step-section.css'
 
 const STEP__DATA = [
     {
-        title:'Setup your Wallet',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea vel id consequuntur?',
+        title:'Setup your Account',
+        desc:'Create your account now easily through many different social channels.',
         icon: 'ri-wallet-line'
     },
 
     {
         title:'Create your Collection',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea vel id consequuntur?',
+        desc:'Create your own personalized collections on your account before you start listing.',
         icon: 'ri-layout-masonry-line'
     },
 
     {
         title:'Add your Listings',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea vel id consequuntur?',
+        desc:'Earn Points by adding your Clothes to your listings, you can only add 5 items a day!',
         icon: 'ri-image-line'
     },
 
     {
         title:'List them for Sale',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea vel id consequuntur?',
+        desc:'Once listed in your collection, your clothes will be listed for sale for other users to exchange!',
         icon: 'ri-list-check'
     },
 ]

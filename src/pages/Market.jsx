@@ -20,15 +20,15 @@ const Market = () => {
     const handleSort = (e) => {
         const filterValue = e.target.value;
         if(filterValue === 'high'){
-            const filterData = NFT__DATA.filter(item => item.currentBid >= 6)
+            const filterData = NFT__DATA.filter(item => item.currentBid >= 160)
             setData(filterData)
         }
         if(filterValue === 'mid'){
-            const filterData = NFT__DATA.filter(item => item.currentBid >= 5.50 && item.currentBid < 6)
+            const filterData = NFT__DATA.filter(item => item.currentBid >= 80 && item.currentBid < 160)
             setData(filterData)
         }
         if(filterValue === 'low'){
-            const filterData = NFT__DATA.filter(item => item.currentBid >= 4.89 && item.currentBid < 5.50)
+            const filterData = NFT__DATA.filter(item => item.currentBid >= 60 && item.currentBid < 80)
             setData(filterData)
         }
     }
@@ -65,9 +65,9 @@ const Market = () => {
                                 <div className="filter__right">
                                         <select onClick={handleSort}>
                                             <option>Sort By</option>
-                                            <option value="high">High Rate</option>
-                                            <option value="mid">Mid Rate</option>
-                                            <option value="low">Low Rate</option>
+                                            <option value="high">High Points</option>
+                                            <option value="mid">Mid Points</option>
+                                            <option value="low">Low Points</option>
                                         </select>
                                 </div>
                             </div>

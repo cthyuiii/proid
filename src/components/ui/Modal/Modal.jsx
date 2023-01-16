@@ -7,7 +7,7 @@ const Modal = ({setShowModal}) => {
 
             <span className="close__modal"><i class='ri-close-line' onClick={()=> setShowModal(false)}/></span>
             <h6 className="text-center text-light">Place a Bid</h6>
-            <p className="text-center text-light">You must bid at least <span className="money">5.89 PTS</span></p>
+            <p className="text-center text-light">You must bid at least <span className="money">70 PTS</span></p>
 
             <div className="input__item mb-4">
                 <input type="number" placeholder="00 : 00 PTS"/>
@@ -20,17 +20,17 @@ const Modal = ({setShowModal}) => {
 
             <div className="d-flex align-items-center justify-content-between">
                 <p>You must bid at least</p>
-                <span className="money">5.89 PTS</span>
+                <span className="money">70 PTS</span>
             </div>
 
             <div className="d-flex align-items-center justify-content-between">
                 <p>Service Fee</p>
-                <span className="money">0.89 PTS</span>
+                <span className="money">5 PTS</span>
             </div>
 
             <div className="d-flex align-items-center justify-content-between">
                 <p>Total Bid Amount</p>
-                <span className="money">5.89 PTS</span>
+                <span className="money">75 PTS</span>
             </div>
 
                 <button className="place__bid-btn">

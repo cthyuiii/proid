@@ -3,19 +3,19 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import CommonSection from "../components/ui/Common-section/CommonSection";
 import NftCard from "../components/ui/Nft-card/NftCard";
-import img from "../assets/images/img-01.jpg";
+import img from "../assets/images/placeholder.png";
 import avatar from "../assets/images/ava-01.png";
 
 import "../styles/create-item.css";
 
 const item = {
   id: "01",
-  title: "Guard",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
+  title: "{Insert Title}", 
+  desc: "",
   imgUrl: img,
   creator: "Trista Francis",
   creatorImg: avatar,
-  currentBid: 7.89,
+  currentBid: 0,
 };
 
 const Create = () => {
