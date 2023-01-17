@@ -54,8 +54,8 @@ const Header = () => {
                     <h2 className=" d-flex gap-2 align-items-center ">
                         <span>
                             <i class="ri-recycle-fill"></i>
-                            REC
-                        </span>       
+                            
+                        </span> SwapCycle       
                     </h2>
                 </div>
 
