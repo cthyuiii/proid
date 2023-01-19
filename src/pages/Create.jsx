@@ -43,14 +43,14 @@ const Create = () => {
                     <label htmlFor="">Price</label>
                     <input
                       type="number"
-                      placeholder="Enter price for one item (ETH)"
+                      placeholder="Enter price for one item (PTS)"
                     />
                   </div>
 
-                  <div className="form__input">
-                    <label htmlFor="">Minimum Bid</label>
-                    <input type="number" placeholder="Enter minimum bid" />
-                  </div>
+                  {/* <div className="form__input">
+                    <label htmlFor="">Points Required</label>
+                    <input type="number" placeholder="Enter Points Cost" />
+                  </div> */}
 
                   <div className=" d-flex align-items-center gap-4">
                     <div className="form__input w-50">

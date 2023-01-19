@@ -28,7 +28,7 @@ const Home = (props) => {
                     <p>{creator}</p>
                 </div>
                 <div>
-                    <h6>Current Bid</h6>
+                    <h6>Required Points</h6>
                     <p>{currentBid} PTS</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Home = (props) => {
 
         <div className=" mt-3 d-flex align-items-center justify-content-between">
             <button className="bid__btn d-flex align-items-center gap-1" onClick={() => setShowModal(true)}>
-                <i class="ri-shopping-bag-line"/>Place Bid</button>
+                <i class="ri-shopping-bag-line"/>Redeem</button>
 
                 {showModal && <Modal setShowModal={setShowModal}/>}
 

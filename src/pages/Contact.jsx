@@ -22,7 +22,8 @@ const Contact = () => {
             <Col lg="6" md="6" className="m-auto text-center">
               <h2>Drop a Message</h2>
               <p>
-                Drop a message for any enquiries, and we will respond to you in 3-5 working days.
+                Drop a message for any enquiries , and we will respond to you in 3-5 working days. 
+                <br/>You can also donate clothes directly through this form by filling up the below information.
               </p>
               <div className="contact mt-4">
                 <form onSubmit={handleSubmit}>

@@ -48,7 +48,7 @@ const ItemDetails = () => {
                             <p className="my-4">{singleItem.desc}</p>
                             <button className="singleNft-btn d-flex align-items-center gap-2 w-100">
                                 <i class='ri-shopping-bag-line'/>
-                                <Link to={'/wallet'}>Place a Bid</Link>
+                                <Link to={'/wallet'}>Redeem</Link>
                             </button>
                         </div>
                     </Col>
